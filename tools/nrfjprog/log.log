@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------
+./nrfjprog --reset --program ../../DFU/bootloader/nrf52832_xxaa_s132.hex --family NRF52 --log
+nrfjprog verion 9.7.1
+--------------------------------------------------------------------------------
+FUNCTION: open_dll.
+FUNCTION: open_dll.
+FUNCTION: enum_emu_snr.
+FUNCTION: enum_emu_snr.
+FUNCTION: enum_emu_snr.
+FUNCTION: enum_emu_snr.
+FUNCTION: connect_to_emu_with_snr.
+FUNCTION: connect_to_emu_with_snr.
+FUNCTION: connect_to_emu_without_snr.
+FUNCTION: enum_emu_snr.
+Device "NRF52832_XXAA" selected.
+JLinkARM.dll GetSN returned error '-1'.
+FUNCTION: close_dll.
+FUNCTION: close_dll.
+--------------------------------------------------------------------------------
+./nrfjprog -f nrf52 -e --log
+nrfjprog verion 9.7.1
+--------------------------------------------------------------------------------
+FUNCTION: open_dll.
+FUNCTION: open_dll.
+FUNCTION: enum_emu_snr.
+FUNCTION: enum_emu_snr.
+FUNCTION: enum_emu_snr.
+FUNCTION: enum_emu_snr.
+FUNCTION: connect_to_emu_with_snr.
+FUNCTION: connect_to_emu_with_snr.
+FUNCTION: connect_to_emu_without_snr.
+FUNCTION: enum_emu_snr.
+Device "NRF52832_XXAA" selected.
+JLinkARM.dll GetSN returned error '-1'.
+FUNCTION: close_dll.
+FUNCTION: close_dll.
